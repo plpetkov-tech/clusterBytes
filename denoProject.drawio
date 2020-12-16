@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-16T06:38:45.151Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="8Y8gW2EI5jG_VdVzNXdU" version="14.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-16T06:45:13.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="_Aw6I6sbZ6kJgHVM5POb" version="14.0.3" type="github" pages="3">
   <diagram id="v-KltTDvjvUkR__w3oYI" name="Prod">
     <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#DAD2D8" math="0" shadow="0">
       <root>
@@ -152,6 +152,66 @@
         </mxCell>
         <mxCell id="Exw2tU36U783nXJ3FbY_-60" value="Deployment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="40" y="444" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="V8EVoEKZBCEyGQbvYRRt" name="Dev">
+    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
+      <root>
+        <mxCell id="UG0L7erXDWoxg8Z4IQq_-0" />
+        <mxCell id="UG0L7erXDWoxg8Z4IQq_-1" parent="UG0L7erXDWoxg8Z4IQq_-0" />
+        <mxCell id="UG0L7erXDWoxg8Z4IQq_-2" value="Development Environment" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#E4FDE1;" vertex="1" parent="UG0L7erXDWoxg8Z4IQq_-1">
+          <mxGeometry x="210" y="20" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UG0L7erXDWoxg8Z4IQq_-4" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="UG0L7erXDWoxg8Z4IQq_-1" source="UG0L7erXDWoxg8Z4IQq_-3" target="Lo3zhZ8ldRelNau7hbrU-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UG0L7erXDWoxg8Z4IQq_-3" value="Docker Compose&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" vertex="1" parent="UG0L7erXDWoxg8Z4IQq_-1">
+          <mxGeometry x="70" y="180" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UG0L7erXDWoxg8Z4IQq_-5" value="Worker Image" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" vertex="1" parent="UG0L7erXDWoxg8Z4IQq_-1">
+          <mxGeometry x="354" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UG0L7erXDWoxg8Z4IQq_-6" value="API image" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" vertex="1" parent="UG0L7erXDWoxg8Z4IQq_-1">
+          <mxGeometry x="234" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UG0L7erXDWoxg8Z4IQq_-7" value="DB Manager Image" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" vertex="1" parent="UG0L7erXDWoxg8Z4IQq_-1">
+          <mxGeometry x="594" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UG0L7erXDWoxg8Z4IQq_-8" value="DB Image" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" vertex="1" parent="UG0L7erXDWoxg8Z4IQq_-1">
+          <mxGeometry x="474" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YpVrmXncnFtBteCcsxtO-0" value="API Gateway Image" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" vertex="1" parent="UG0L7erXDWoxg8Z4IQq_-1">
+          <mxGeometry x="114" y="540" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YpVrmXncnFtBteCcsxtO-1" value="Backup manager Image" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" vertex="1" parent="UG0L7erXDWoxg8Z4IQq_-1">
+          <mxGeometry x="114" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lo3zhZ8ldRelNau7hbrU-0" value="Kafka Server" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" vertex="1" parent="UG0L7erXDWoxg8Z4IQq_-1">
+          <mxGeometry x="114" y="360" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lo3zhZ8ldRelNau7hbrU-1" value="Elastic Server" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#028090;fillColor=#F45B69;fontColor=#E4FDE1;" vertex="1" parent="UG0L7erXDWoxg8Z4IQq_-1">
+          <mxGeometry x="114" y="420" width="600" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PR9Jx4X4YsnZBLg0E0rP" name="Page-3">
+    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#283618" math="0" shadow="0">
+      <root>
+        <mxCell id="fFDTWxJaPPdEW72xetZH-0" />
+        <mxCell id="fFDTWxJaPPdEW72xetZH-1" parent="fFDTWxJaPPdEW72xetZH-0" />
+        <mxCell id="fFDTWxJaPPdEW72xetZH-2" value="&lt;font color=&quot;#ffffff&quot;&gt;Deno API&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=0;sketch=0;" vertex="1" parent="fFDTWxJaPPdEW72xetZH-1">
+          <mxGeometry x="350" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fFDTWxJaPPdEW72xetZH-3" value="Dockerfile&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FEFAE0;" vertex="1" parent="fFDTWxJaPPdEW72xetZH-1">
+          <mxGeometry x="60" y="120" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fFDTWxJaPPdEW72xetZH-4" value="Main TS File" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FEFAE0;" vertex="1" parent="fFDTWxJaPPdEW72xetZH-1">
+          <mxGeometry x="50" y="100" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
